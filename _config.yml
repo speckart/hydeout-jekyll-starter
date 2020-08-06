@@ -3,8 +3,8 @@ title: Hydeout
 tagline: A Jekyll theme
 description: The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme
   for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.
-url: 
-baseurl:
+url: https://speckart.github.io/hydepage
+baseurl: ''
 author:
   name: Andrew Fong
   url: https://twitter.com/fongandrewc
@@ -18,14 +18,15 @@ plugins:
 - jekyll-paginate
 sidebar_home_link: true
 theme_colors:
-  sidebar-bg-color: "#000000"
-  sidebar-fg-color: "#FFFFFF"
-  link-color: "#000000"
+  sidebar-bg-color: "#18566B"
+  sidebar-fg-color: "#B84D69"
+  link-color: "#FCF8F8"
 sidebar-sticky: true
 layout-reverse: false
 remote_theme: fongandrew/hydeout
 google_analytics: ''
 disqus:
   shortname: ''
-
 theme: jekyll-theme-hydeout
+markdown: ''
+highlighter: ''
