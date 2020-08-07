@@ -22,7 +22,7 @@ theme_colors:
   sidebar-fg-color: "#B84D69"
   link-color: "#FCF8F8"
 sidebar-sticky: true
-layout-reverse: false
+layout-reverse: true
 remote_theme: fongandrew/hydeout
 google_analytics: ''
 disqus:
