@@ -7,31 +7,34 @@ sidebar_sort_order:
 published: false
 
 ---
+    {{ with .Params.forestry_instant_preview_id }}
+      {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
+    {{ end -}}
+
 **Testing stuff**
 
 Text
 
 Poll here
 
- Poll 1: Can you click here?
-    
- If you like this poll, click on number 3:
-    
+Poll 1: Can you click here?
+
+If you like this poll, click on number 3:
+
 [![](https://api.gh-polls.com/poll/01EEBDDQ7WSQDC2JHHAAFAY8T5/Option%201)](https://api.gh-polls.com/poll/01EEBDDQ7WSQDC2JHHAAFAY8T5/Option%201/vote)
 [![](https://api.gh-polls.com/poll/01EEBDDQ7WSQDC2JHHAAFAY8T5/Option%202)](https://api.gh-polls.com/poll/01EEBDDQ7WSQDC2JHHAAFAY8T5/Option%202/vote)
 [![](https://api.gh-polls.com/poll/01EEBDDQ7WSQDC2JHHAAFAY8T5/option%203)](https://api.gh-polls.com/poll/01EEBDDQ7WSQDC2JHHAAFAY8T5/option%203/vote)
-    
 
 drop arrow here
 
 <details><summary>Click arrow to reveal answer</summary>
-    <p>
-    
+<p>
+
     It's 3, yep, nice job.
     
     </p>
+
 </details>
-    
 
 video here
 
@@ -39,6 +42,6 @@ video here
 <p><a href="https://vimeo.com/198212082">Randomized Experiments</a> from <a href="https://vimeo.com/modu">Duke University Mod-U</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 <p>This module introduces the idea of randomized experiments, and why they help us learn causal effects.<br />
 <br />
-The Causal Inference Bootcamp is created by Duke University&#039;s Education and Human Development Incubator (EHDi) at Duke&#039;s Social Sciences Research Institute.  <br />
+The Causal Inference Bootcamp is created by Duke University's Education and Human Development Incubator (EHDi) at Duke's Social Sciences Research Institute.  <br />
 <br />
 See our other modules on many related topics at Mod-U: https://modu.ssri.duke.edu</p>
